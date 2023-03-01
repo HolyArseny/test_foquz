@@ -1,6 +1,6 @@
 # Test task Foquz
 
-![Task image](<img width="1307" alt="image" src="https://user-images.githubusercontent.com/48618220/222183491-a905f892-d8a9-4a00-b2e6-6cc571f7ae5c.png">)
+![Task image](https://user-images.githubusercontent.com/48618220/222183491-a905f892-d8a9-4a00-b2e6-6cc571f7ae5c.png)
 
 ## Task inforamtion
 ### General
