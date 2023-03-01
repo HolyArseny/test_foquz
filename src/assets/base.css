@@ -1,0 +1,54 @@
+/* Color palette */
+:root {
+  --app-white-01: #ffffff;
+  --app-pink-01: #FF238D;
+  --app-gray-01: #DFE4EF;
+  --app-gray-02: #D3D8DF;
+  --app-gray-03: #8E9CBB;
+  --app-blue-01: #0066FF;
+  --app-blue-02: #0066ffb3;
+  --app-yellow-01: #FFB800;
+  --app-orange-01: #FF8D23;
+  --app-black-01: #000000;
+}
+
+/* Text color variables */
+:root {
+  --color-background-01: var(--app-white-01);
+
+  --color-border-01: var(--app-gray-01);
+  --color-border-02: var(--app-gray-02);
+  --color-border-03: var(--app-gray-03);
+  --color-hover: var(--app-blue-01);
+  --color-shadow: var(--app-blue-02);
+
+  --color-text: var(--app-black-01);
+  --color-second-text: var(--app-gray-03);
+  --color-important-text: var(--app-pink-01);
+
+  --gap-01: 12px;
+  --gap-02: 20px;
+
+  --transition: 0.3s ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
